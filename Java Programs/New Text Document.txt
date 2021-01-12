@@ -1,0 +1,22 @@
+class Car {
+	int wheel;
+	String color;
+	float price;
+	void start() {
+		System.out.println("Car Start");		
+	}
+	void appliedGear() {
+		System.out.println("Applied the Gear....");
+	}
+	void moving() {
+		System.out.println("Car is moving....");
+	}
+	void stop() {
+		System.out.println("Car stopped...");
+	}
+}
+class Test {
+	public static void main(String args[]) {
+
+	}
+}
