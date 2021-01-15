@@ -8,9 +8,10 @@ public class TryCatchAndFinally {
 		System.out.println("No Exception");		// read and write 
 																	
 		} catch (Exception e) {
-			System.out.println("Catch block");			//close file 
+			System.out.println("Catch block");			
 		}finally {
-			System.out.println("finally block");
+			System.out.println("finally block");		//close file 
+			// It is use to close the resources for file, database, security etc. 
 		}
 		System.out.println("Normal statement");
 	}
