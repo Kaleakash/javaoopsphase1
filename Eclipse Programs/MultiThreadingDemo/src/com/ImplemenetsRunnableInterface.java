@@ -26,7 +26,8 @@ public class ImplemenetsRunnableInterface {
 		Thread t1 =new Thread(obj1);
 		Thread t2 = new Thread(obj2);			//t1 and t2 are Thread class reference. 
 		t1.start();
-		t2.start();									
+		t2.start();	
+		//t1.start();
 	}
 
 }
