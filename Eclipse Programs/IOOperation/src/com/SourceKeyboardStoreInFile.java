@@ -1,5 +1,8 @@
 package com;
-
+/*
+* Source --> Keyboard 
+* Destination --> File / Monitor(Console) 
+*/
 import java.io.DataInputStream;
 import java.io.FileOutputStream;
 

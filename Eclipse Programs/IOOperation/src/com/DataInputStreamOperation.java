@@ -2,7 +2,10 @@ package com;
 
 import java.io.DataInputStream;
 import java.io.PrintStream;
-
+/*
+ * Source --> Keyboard 
+ * Destination --> Console 
+ */
 public class DataInputStreamOperation {
 
 	public static void main(String[] args) throws Exception{
@@ -13,7 +16,7 @@ public class DataInputStreamOperation {
 	ps.println("Enter the name");
 	String name = dis.readLine();
 	ps.println("Enter the salary");
-	float salary = Float.parseFloat(dis.readLine());
+	float salary = Float.parseFloat(dis.readLine());		// 
 	ps.println("id is "+id);
 	ps.println("Your Name is "+name);
 	ps.println("Salary is "+salary);
